@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<link rel="stylesheet" href="{{ url_for('static', filename='download_style.css') }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Ubuntu|Sarabun|Spectral|Play|Mukta|Roboto|Inter">
+<div class="header_pane">
+		
+    <div class="h2">Predictive Model</div>
+</div>
+<body>
+	<title>Model Summary</title>
+	<h2>Summary</h2>
+    
+	<p>The Model has been trained with {{dicta['rows_train']}} Images and tested on {{dicta['rows_test']}} Images. <br>
+        
+	<!---Out of that {{dicta['cm_value']}} positive and {{dicta['neg']}} negative patient samples.<br>
+    <br>--->
+    
+	Total {{dicta['nrow']}} patients sample sent to the model for prediction and model classified the patient records as follows, <br></p>
+	<ul>
+        {% for x,y in dicta['cm_value'].items() %}
+          <li> {{y }} </li>
+        {% endfor %}
+	</ul>
+	<p>Model has produced  {{dicta['auc']}}% accuracy for the given data sets. </p>
+	<p style="font: Italic 18px ubuntu;">You can download the Model output by clicking the download button below…</p>
+	<h2>Download Result File</h2>
+	<a href="/return-files/{{dicta['value']}}" target="blank"><button class='btn btn-default'>Download</button></a>
+ 
+    
+<!-- <form method="GET">
+    <input name="text">
+    <input type="submit">
+</form> -->
+
+    
+    <ul>
+        
+<div table id="example">
+    <div id="table-scroll">
+    <table>
+    <thead>
+    <tr>
+<!-- <form method="GET">    -->
+<!--         <th>&nbsp;</th> -->
+{% for heading in dicta['headings'] %}
+  <th>  {{heading}}</th>
+        {% endfor %}
+        
+        </tr>
+    </thead>
+    
+    {% for value in dicta['v'] %}
+    <tr>  
+    
+<!--      <tr> <td> <a href="/uploads/test/Normal-4765.png" alt="Not found ...failed to upload image">Edit</a>  </td> -->
+         <p>  {%for d in value %}  
+         
+        
+         <td><a style="text-decoration:none" href="/uploads/train/Normal-4765.png" alt="Not found ...failed to upload image">{{d}}</a></td>
+          {% endfor %} </p>
+         </tr>
+    {% endfor %}
+    
+
+ </table>
+    </div>
+        </div>
+<!-- 	</ul>
+     <body>
+<a href="/static/images/thryve.png" alt="Not found ...failed to upload image"></a> 
+       <img src="{{ user_image}}" alt="User Image">
+</body> -->
+</body>
+  
+</html>

@@ -1,0 +1,125 @@
+.header_pane{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #ecede4;
+}
+.header_pane img{
+    position: relative;
+    width: 45px;
+    float: left;
+    padding: 5px;
+}
+body{
+	padding-top: 60px;
+	height: 400px;
+	background-image: url("/static/images/ai2.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.new_body{
+	padding-top: 60px;
+	background-color:white;
+}
+
+.h2{
+    position: relative;
+    font: bold 30px Play;
+    float: left;
+    color: #384273;
+    margin: auto;
+    padding: 8px 0px;
+}
+
+h1{
+	text-align: center;
+	color: #024a39;
+	font: bold 30px Nunito;
+}
+
+h3, h4{
+	color: #384273;
+	font-family: Inter;
+}
+
+ul, p{
+	color: #0f1847;
+	font-family: Inter;
+}
+
+.top_pane_r {
+  position: relative;
+  float: right;
+  height: 40px;
+}
+
+.top_pane_r img{
+  object-fit: contain;
+  padding: 5px 10px;
+  height: 35px;
+  width: 90px;
+  float: right;
+}
+
+.container{
+	width: 700px;
+	margin: 20px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	float: left;
+}
+
+.container .tbl{
+	width: 100%;
+	border: collapse;
+	font: solid 30px;
+	font-family: Sarabun;
+	padding: 0px 10px;
+}
+
+.container .tbl td{
+	vertical-align: middle;
+	font: 20px Inter;
+	color: #07134f;
+	line-height: 80px;
+}
+
+input[type=file] {
+  width: 100%;
+  padding: 5px;
+  float: right;
+  font: 15px Roboto;
+  color: #07134f;
+}
+
+
+input[type=submit] {
+  width: 50%;
+  background-color: #2b4782;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font: 20px Play;
+}
+
+input[type=submit]:hover{
+background-color: #3b5998;
+}
+
+.note{
+	width: 300px;
+	height: 350px;
+	margin: 15px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color:white;
+	padding: 15px;
+	padding-top: 0px;
+	overflow: scroll;
+}

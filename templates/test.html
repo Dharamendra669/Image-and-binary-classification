@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+ <html lang="en" xmlns="http://www.w3.org/1999/html">
+ 
+<link rel="stylesheet" href="{{ url_for('static', filename='download_style.css') }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Ubuntu|Sarabun|Spectral|Play|Mukta|Roboto|Inter">
+<div class="header_pane">
+		
+    <div class="h2">Predictive Model</div>
+    
+</div>
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+<select name= colours id="colours" method="GET" action="/">
+    {% for colour in colours %}
+    <option value= "{{colour}}" id ="{{colour}}" SELECTED>{{colour}}</option>"
+    {% endfor %}
+</select>
+     <input type="submit" value="Submit" />
+
+</body>
+</html>

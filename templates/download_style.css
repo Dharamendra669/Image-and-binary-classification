@@ -1,0 +1,90 @@
+.header_pane{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #ecede4;
+}
+.header_pane img{
+    position: relative;
+    width: 45px;
+    float: left;
+    padding: 5px;
+}
+
+.h2{
+    position: relative;
+    font: bold 30px Play;
+    float: left;
+    color: #384273;
+    margin: auto;
+    padding: 8px 0px;
+}
+
+body{
+	padding-top: 50px;
+	padding-left:10px;
+}
+
+
+h2, h3, h4{
+	color: #41207d;
+	font-family: Inter;
+}
+
+ul, p{
+	font-size: 20px;
+	color: #224261;
+	font-family: sarabun;
+}
+
+.top_pane_r {
+  position: relative;
+  float: right;
+  height: 40px;
+}
+
+.top_pane_r img{
+  object-fit: contain;
+  padding: 5px 10px;
+  height: 35px;
+  width: 90px;
+  float: right;
+}
+
+button{
+	background-color: #31106e;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font: 25px Play;
+  width: 220px;
+}
+
+button:hover{
+background-color: #65489c;
+}
+
+/* Table formating */
+table#example {
+    border-collapse: collapse;   
+}
+#example tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#example tr:hover {
+    background-color: #ccc;
+}
+#example th {
+    background-color: #fff;
+}
+#example th, #example td {
+    padding: 3px 5px;
+}
+#example td:hover {
+    cursor: pointer;
+}

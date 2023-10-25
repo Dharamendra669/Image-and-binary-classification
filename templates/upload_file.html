@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Ubuntu|Sarabun|Spectral|Play|Mukta|Roboto|Inter">
+<div class="header_pane">
+		
+    <div class="h2">Predictive Model</div>
+    
+</div>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+	<div class="container">
+      <title>Build Model</title>
+	  <h1>Predictive Analytics</h1>
+	  <form action="" method=post enctype=multipart/form-data>
+	  	<table class="tbl">
+	  		<tr>
+	  			<td>Build The Model:</td>
+	  			<td><input type=file name=ifile></td>
+	  		</tr>
+	  		<tr>
+	  			<td>Test The Model:</td>
+	  			<td><input type=file name=nfile></td>
+	  		</tr>
+	  		<tr>
+	  			<td colspan="2" style="text-align:center;"><input type=submit value=Process></td>
+	  		</tr>
+	  	</table>
+	  </form>
+	</div>
+	<div class="note">
+		<h3>Notes:</h3>
+		<h4>Prerequisites: </h4>
+		<p></p>
+		<ul>
+			<li>Data Pre-processing (Ex: Clean the data by removing outliers and treating missing data)</li>
+			<li>Training Data set (Historical Data)</li>
+			<li>New observation Data set (unseen Data)</li>
+			<li>Should Keep output column as the last column on the input files.</li>
+		</ul>
+		</p>
+	<h4>How it works: </h4>
+		<p>Predictive modeling is a statistical technique using machine learning and data mining to 
+			predict and forecast likely future outcomes with the aid of historical and existing data. 
+			It works by analyzing current and historical data and projecting what it learns on a model generated to forecast likely outcomes.
+		</p>
+	</div>
+</body>
+</html>
