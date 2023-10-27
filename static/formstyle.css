@@ -1,0 +1,242 @@
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #67c17b;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: right;
+  font: 15px Sarabun;
+  color: #27083e;
+  background-color: #dcf1e0;
+}
+
+select, input[type=number] {
+  width: 37%;
+  padding:5px;
+  border: none;
+  border-bottom: 1px solid #67c17b;
+  box-sizing: border-box;
+  margin: auto;
+  resize: vertical;
+  float: right;
+  font: 14px Sarabun;
+  color: #27083e;
+  background-color: #dcf1e0;
+}
+
+.pop input[type=number]{
+  width: 25%;
+  border: 1px solid #67c17b;
+  border-radius: 5px;
+  font: 14px Sarabun;
+  color: #27083e;
+  background-color: white;
+  height: 28px;
+  float: left;
+  text-align: center;
+}
+
+textarea{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #67c17b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  resize: vertical;
+  float: right;
+  font: 15px Sarabun;
+  color: #27083e;
+}
+
+input[type=text]:focus, select:focus, input[type=number]:focus {
+  outline: 0;
+  border-bottom-color: #3a5251;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #3b5e3e;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font: 15px Play;
+}
+
+input[type=submit]:hover {
+  background-color: #49744c;
+}
+
+h2{
+  color: white;
+  border-radius: 5px;
+  /*padding: 5px 20px;*/
+  font-family: Audiowide;
+}
+
+label{
+  color: #3a5251;
+  font: bold 15px ;
+  font-family: Sarabun;
+  clear: left;
+  padding: 10px;
+}
+
+.left_container {
+  padding: 10px;
+  /*background-image: linear-gradient(#4a53b5, #4d5683);*/
+  /*background-image: linear-gradient(to left, #4d5683, #2782b4);*/
+  border-radius: 5px;
+  background-color: #dcf1e0;
+}
+
+.right_container {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #dcf1e0;
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-rows: 2em;
+}
+
+.qty_container {
+  padding: 10px 0px;
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-rows: 2em;
+
+}
+
+input[type=checkbox]{
+float: left;
+cursor: pointer;
+width: 20px;
+height: 20px;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 50px 2fr 1.2fr 300px ;
+grid-gap: 1em 5px;
+}
+
+body{
+background-color: #c8d7d7;
+padding-top: 60px;
+/*background-image: linear-gradient(.45turn, #4d5683, #7690d1, #a9bae2);*/
+}
+
+.fixed_header{
+position: fixed;
+background-color: #4b6f5a; /*#3a5251;*/
+width: 100%;
+height: 60px;
+top:0;
+left: 0;
+}
+
+.top_pane, .top_pane td{
+  position: relative;
+  float: left;
+  height: 40px;
+  padding: 5px;
+}
+
+.top_pane img{
+  width: 40px;
+  position: relative;
+  display: block;
+}
+.top_pane_r {
+  position: relative;
+  float: right;
+  height: 40px;
+}
+.top_pane_r .img2{
+  position: relative;
+  padding: 10px 2px;
+  height: 35px;
+  width: 90px;
+  object-fit: contain;
+}
+
+::placeholder{
+  font: italic 12px sarabun;
+}
+
+.leftmenu{
+  display: grid;
+  grid-auto-rows: 50px;
+  border: 1px white;
+}
+
+.leftmenu img{
+width: 70%;
+padding: 7px;
+object-fit: fill;
+}
+
+.leftmenu img:hover{
+transform: scale(1.2);
+background-color: #dcf1e0;
+border-radius: 10px;
+}
+
+.dataframe {
+  border-collapse: collapse;
+}
+
+.dataframe td {
+  font: 13px Roboto;
+  color: #1a491d;
+  font-weight: 500;
+  border: 1px solid #67c17b;
+  padding: 1px 5px;
+  min-width: 20px;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dataframe tr:nth-child(even){background-color: #f2f2f2;}
+
+.dataframe td:hover {
+  background-color: #fff;
+  white-space: normal;
+}
+
+.dataframe th {
+  font: 13px Mukta;
+  padding: 7px 5px;
+  min-width: 20px;
+  max-width: 200px;
+  text-align: center;
+  background-color: #406543;
+  color: White;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.column_list {
+  position: relative;
+  float: left;
+}
+
+.column_list img {
+  object-fit: contain;
+  padding: 5px;
+  height: 30px;
+}
+
+.column_list img:hover {
+  background-color: #dcf1e0;
+  transform: scale(1.2);
+  border-radius: 5px;
+}

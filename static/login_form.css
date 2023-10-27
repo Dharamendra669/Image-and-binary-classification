@@ -1,0 +1,88 @@
+body{
+    padding-top: 5%;
+    background-color: #c8d7d7;
+}
+h1{
+    color: White;
+    font: 27px Roboto;
+    text-align: center;
+    font-weight: 500;
+    background-color: teal;
+    padding: 15px 25px;
+    position: relative;
+    height: auto;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2{
+    color: #003963;
+    font: 20px Krub;
+    font-weight: 200;
+    text-align: center;
+}
+
+h3{
+    color: #0e626d;
+    font: 15px Roboto;
+    font-weight: 100;
+}
+
+.container{
+    position: relative;
+    width: 35%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    padding: 5px 25px 25px 25px;
+    align: center;
+    border-radius: 5px;
+}
+
+input[type=text],input[type=password]{
+    font: 20px Mukta;
+    border-radius: 3px;
+    border: 1px solid teal;
+    color: #003963;
+    float: center;
+    padding: 10px;
+    width:95%;
+    height: 30px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+input[type=submit]{
+    position: relative;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+    margin: 20px auto;
+    background-color: teal;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font: 17px Allerta;
+    padding: 12px 0 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #158e9d;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.message{
+    color: #0e626d;
+    font: italic 15px Roboto;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font: italic 15px Roboto;
+    text-align: center;
+}

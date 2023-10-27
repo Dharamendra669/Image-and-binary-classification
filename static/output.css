@@ -1,0 +1,42 @@
+body{
+font: 15px Mukta;
+color: #074736;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.output {
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.output td {
+  font: 13px Mukta;
+  color: #074736;
+  border: 1px solid;
+  padding: 1px 5px;
+  min-width: 20px;
+  max-width: 200px;
+}
+
+.output th{
+  font: bold 14px Mukta;
+  background-color: #edf5f1;
+  padding: 1px 5px;
+  border: 1px solid;
+}
+
+img{
+  width: 40px;
+  display: block;
+  padding: 5px;
+}
+
+img:hover {
+  background-color: #dcf1e0;
+  transform: scale(1.15);
+  border-radius: 5px;
+}
