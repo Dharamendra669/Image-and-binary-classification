@@ -1,0 +1,30 @@
+,file_name,Actual,predict
+0,Viral Pneumonia-1302.png,viral pneumonia,viral pneumonia
+1,Viral Pneumonia-853.png,viral pneumonia,viral pneumonia
+2,Viral Pneumonia-1327.png,viral pneumonia,viral pneumonia
+3,Viral Pneumonia-1304.png,viral pneumonia,viral pneumonia
+4,test_COVID-824.png,test_covid,lung_opacity
+5,COVID-17.png,covid,covid
+6,Normal-4763.png,normal,normal
+7,Normal-4769.png,normal,normal
+8,COVID-10.png,covid,lung_opacity
+9,COVID-20.png,covid,lung_opacity
+10,COVID-19.png,covid,lung_opacity
+11,COVID-824.png,covid,lung_opacity
+12,Normal-4765.png,normal,normal
+13,Normal-4773.png,normal,normal
+14,Lung_Opacity-4643.png,lung_opacity,lung_opacity
+15,Normal-7520.png,normal,normal
+16,Viral Pneumonia-852.png,viral pneumonia,viral pneumonia
+17,Normal-4783.png,normal,normal
+18,Lung_Opacity-4918.png,lung_opacity,covid
+19,Viral Pneumonia-1313.png,viral pneumonia,viral pneumonia
+20,Lung_Opacity-4661.png,lung_opacity,lung_opacity
+21,COVID-825.png,covid,lung_opacity
+22,Lung_Opacity-4637.png,lung_opacity,lung_opacity
+23,Lung_Opacity-4651.png,lung_opacity,lung_opacity
+24,Lung_Opacity-4919.png,lung_opacity,covid
+25,Lung_Opacity-4650.png,lung_opacity,normal
+26,Normal-7519.png,normal,normal
+27,Viral Pneumonia-1336.png,viral pneumonia,viral pneumonia
+28,COVID-7.png,covid,normal
